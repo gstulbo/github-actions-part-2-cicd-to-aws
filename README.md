@@ -4,7 +4,7 @@
 
 
 Status of Last Deployment:<br>
-<img src="https://github.com/gstulbo/github-actions-part-2-cicd-to-aws/workflows/CI-CD-Pipeline-to-AWS-ElasticBeastalk/badge.svg?branch=master"><br>
+![Status](https://github.com/gstulbo/github-actions-part-2-cicd-to-aws/actions/workflows/main.yml/badge.svg?branch=master)
 
 
 Copyleft by Denis Astahov ADV-IT 2019.
