@@ -1,0 +1,8 @@
+
+services:
+  my-app:
+    build: .             # Docker сам соберет образ из Dockerfile в этой папке
+    container_name: my-running-app
+    ports:
+      - "5001:5001"      # Внешний порт 5001 : Внутренний порт 5001
+    restart: always      # Если сервер перезагрузится, контейнер поднимется сам

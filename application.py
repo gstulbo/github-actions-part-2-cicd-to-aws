@@ -26,5 +26,6 @@ def index():
 #--------Main------------------
 if __name__ == "__main__":
     application.debug = True
-    application.run()
+#--    application.run()
+    application.run(host='0.0.0.0', port=5001) # Добавили параметры сюда
 #------------------------------
